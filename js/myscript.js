@@ -42,16 +42,24 @@ function imprimirSaida(){
 
 function realizarOperacao(indice, operador){
     let varLocal = 0
-    if (operador == 1){
-        varLocal = Number(listaNumero[indice]) + Number(listaNumero[indice + 1])
-    } else if (operador ==2){
-        varLocal = Number(listaNumero[indice]) - Number(listaNumero[indice + 1])
-    } else if (operador == 3){
-        varLocal = Number(listaNumero[indice]) * Number(listaNumero[indice + 1])
-    } else if (operador == 4){
-        varLocal = Number(listaNumero[indice]) / Number(listaNumero[indice + 1])
-    } else if (operador == 5){
-        varLocal = Number(listaNumero[indice]) ** Number(listaNumero[indice + 1])
+    switch (operador){
+        case 1:
+            varLocal = Number(listaNumero[indice]) + Number(listaNumero[indice + 1]);
+            break;
+        case 2:
+            varLocal = Number(listaNumero[indice]) - Number(listaNumero[indice + 1]);
+            break;
+        case 3:
+            varLocal = Number(listaNumero[indice]) * Number(listaNumero[indice + 1]);
+            break;
+        case 4:
+            varLocal = Number(listaNumero[indice]) / Number(listaNumero[indice + 1]);
+            break;
+        case 5:
+            varLocal = Number(listaNumero[indice]) ** Number(listaNumero[indice + 1]);
+            break;
+        default:
+            break;
     }
     listaNumero.splice(indice, 2, varLocal)
     return listaNumero, display

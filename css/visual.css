@@ -122,7 +122,6 @@ header::before{ right: 54px; background-color: crimson ;}
     text-align: center;
     margin: 0 8px 0 20px;
     user-select: none;
-    cursor: pointer;
     font-family: sans-serif;
     font-size: 25px;
     display: grid;
@@ -155,28 +154,30 @@ header::before{ right: 54px; background-color: crimson ;}
 }
 
 .botao_destaque, .botao_imparLinha, .botao_parLinha{
+    cursor: pointer;
     display: inline-block;
     width: 33px;
     height: 52px;
-    padding: 10px 5px 0 5px;
+    padding: 10px 5px 0 5px; 
     align-items: center;
     border-radius: 15px;
+    margin: 8px 4px 0 0;
+    
+}
+.botao_imparLinha{
     background-color: rgba(10, 10, 10, 0.7);
     border: 2px solid black;
     box-shadow: 3px 0 rgba(10, 10, 10, 0.9), inset 3px 0 rgba(238, 238, 238, 0.2);
 }
-.botao_imparLinha{
-    margin: 8px 4px 0 0;
-}
 
 .botao_parLinha{
-    margin: 8px 4px 0 0;
+    background-color: rgba(10, 10, 10, 0.7);
+    border: 2px solid black;
+    box-shadow: 3px 0 rgba(10, 10, 10, 0.9), inset 3px 0 rgba(238, 238, 238, 0.2);
 }
 
 .botao_destaque{
-    display: inline-block;
     background-color: crimson;
-    margin: 8px 4px 0 0;
     border: 2px solid black;
     box-shadow: 3px 0 rgba(10, 10, 10, 0.9), inset 3px 0 rgb(247, 89, 121);
 }

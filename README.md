@@ -5,11 +5,12 @@
 
 ### Sobre
 
-O projeto tem como objetivo **por em prática conhecimentos adquiridos durante as aulas de Lógica de Programação e ser meu primeiro projeto em JS e CSS**. 
-A Calculadora Desktop é aplicação que fornece recursos das quatro operações básicas e exponenciação, apagar o útimo algarismo digitado (<-), utilizar o último resultado obtido (ANS), reiniciar as variáveis (C), e a constante pi. 
+   O projeto tem como objetivo por em prática conhecimentos adquiridos durante as aulas de **Lógica de Programação e ser meu primeiro projeto em JS e CSS**. 
+   
+   A Calculadora Desktop é aplicação que fornece recursos das quatro operações básicas e exponenciação, apagar o útimo algarismo digitado (<-), utilizar o último resultado obtido (ANS), reiniciar as variáveis (C), e a constante pi. 
 A aplicação permitirá que o usuário insira **expressões numéricas** extensas.
 
-** Inserir um gif **
+![calculadoraDesktop](https://user-images.githubusercontent.com/87876734/147797618-2632e423-39b2-421e-9f19-01b77c946c4b.gif)
 
 ### Ferramentas Utilizadas
 
